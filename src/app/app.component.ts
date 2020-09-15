@@ -7,4 +7,6 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Abarna_Selva';
+  title = "list of courses";
+  imageurl = "https://loren.com/400/200";
 }
