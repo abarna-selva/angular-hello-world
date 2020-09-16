@@ -10,11 +10,13 @@ export class AppComponent  {
   title = "list of courses";
   imageurl = "https://loren.com/400/200";
   // Event Binding:
+  email = "abarna@example.com";
   onsave($event){
     console.log("save button is clicked!",$event);
+    console.log(this.email)
   }
   // Two way data binding:
-  // email = "abarna@example.com";
+  
   // onkeyup() {
   //   console.log(this.email);
   // }

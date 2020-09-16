@@ -10,7 +10,9 @@
 <h2> Event Binding </h2>
 <button (click)="onsave($event)"> SAVE </button>
 <!-- Two Way Data Binding: -->
-<!-- <input [value]="email" (keyup.enter)="email = $event.target.value; onkeyup()" />  -->
+<!-- <input [value]="email" (keyup.enter)="email = $event.target.value; 
+onkeyup()" />  -->
+<input [(ngModel)] ="email" >
 
 <!-- ngif: -->
 <div *ngIf="course.length > 0">
