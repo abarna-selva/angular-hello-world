@@ -6,3 +6,17 @@
 <h2> {{title}}</h2>
 <img src="{{imageurl}}" />
 <img [src]="title" />
+<!-- Event Binding: -->
+<h2> Event Binding </h2>
+<button (click)="onsave($event)"> SAVE </button>
+<!-- Two Way Data Binding: -->
+<!-- <input [value]="email" (keyup.enter)="email = $event.target.value; onkeyup()" />  -->
+
+<!-- ngif: -->
+<div *ngIf="course.length > 0">
+  List of courses
+</div>
+<div *ngIf="course.length == 0">
+  No Courses Yet
+</div>
+
