@@ -22,4 +22,11 @@ export class AppComponent  {
   // }
   // ngif:
   course = [];
+  // ngfor:
+  courses = [
+    { id:1, name: 'couse1'},
+    { id:2, name: 'couse2'},
+    { id:3, name: 'couse3'},
+    { id:4, name: 'couse4'},
+  ]
 }
